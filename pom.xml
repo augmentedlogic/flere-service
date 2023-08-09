@@ -4,14 +4,31 @@
   <groupId>com.augmentedlogic.flere.service</groupId>
   <artifactId>flere-service</artifactId>
   <version>0.1.1</version>
-  <name>Flere Http Service</name>
-  <description/>
+  <name>flere-service</name>
+  <description>a minimal embedded HTTP service for microservices</description>
   <url>https://developer.augmentedlogic.com</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <licenses>
+    <license>
+      <name>MIT Licence</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Wolfgang Hauptfleisch</name>
+      <email>dev@augmentedlogic.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/augmentedlogic/flere-service.git</connection>
+    <url>http://github.com/augmentedlogic/flere-service</url>
+  </scm>
   <build>
     <plugins>
       <plugin>
